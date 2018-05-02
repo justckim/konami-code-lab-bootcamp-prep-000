@@ -2,6 +2,8 @@ const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 
 function init() {
   // Write your JavaScript code inside the init() function
+  
+  const body = document.querySelectorAll('body')
   let index = 0; 
   
   function onKeyDownHandler(e) {
@@ -19,6 +21,7 @@ function init() {
     else {
       index = 0; 
     }
-    
   }
+  
+  
 }
